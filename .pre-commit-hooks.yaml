@@ -1,0 +1,5 @@
+-   id: gradle-check
+    name: call ./gradlew check
+    description: Run gradle echecks
+    entry: gradle-check
+    language: script
