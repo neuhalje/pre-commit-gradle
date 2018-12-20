@@ -23,7 +23,7 @@ exclude: '^$'
 fail_fast: false
 repos:
 -   repo: https://github.com/neuhalje/pre-commit-gradle.git
-    rev: master
+    rev: v0.0.1
     hooks:
     -   id: gradle-check
 ```
