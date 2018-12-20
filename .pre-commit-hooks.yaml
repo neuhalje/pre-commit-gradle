@@ -1,5 +1,5 @@
 -   id: gradle-check
-    name: call ./gradlew check
-    description: Run gradle echecks
-    entry: gradle-check
+    name: gradle-check
+    description: Run ./gradlew check
+    entry: bin/gradle-check
     language: script

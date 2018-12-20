@@ -1,6 +1,10 @@
 # Gradle plugin for 'pre-commit'
 
-This repo is a shim that adds [gradle](https://gradle.org/) support to [pre-commit](https://pre-commit.com).
+This repo is a shim that adds [gradle](https://gradle.org/) support to Yelps [pre-commit](https://pre-commit.com).
+
+## Available Hooks
+
+* `gradle-check` -- run `./gradlew check`
 
 ## Installing
 
@@ -25,3 +29,5 @@ repos:
 ```
 
 Now enable pre-commit via `pre-commit install`.
+
+__Made with ♥️___
